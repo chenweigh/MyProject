@@ -1,0 +1,32 @@
+PODS:
+  - UMCCommon (1.5.3)
+  - UMCShare/Core (6.9.5):
+    - UMCCommon
+  - UMCShare/Social/ReducedWeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/WeChat (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+  - UMCShare/UI (6.9.5):
+    - UMCCommon
+    - UMCShare/Core
+
+DEPENDENCIES:
+  - UMCCommon
+  - UMCShare/Social/WeChat
+  - UMCShare/UI
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UMCCommon
+    - UMCShare
+
+SPEC CHECKSUMS:
+  UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
+  UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
+
+PODFILE CHECKSUM: 1c6b3f93ba3e515c7c36aaceb8209f5d3f219b2e
+
+COCOAPODS: 1.5.0

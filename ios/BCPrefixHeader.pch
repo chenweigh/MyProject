@@ -1,0 +1,20 @@
+//
+//  BCPrefixHeader.pch
+//  MyProject
+//
+//  Created by chen on 2018/11/6.
+//  Copyright © 2018 Facebook. All rights reserved.
+//
+
+#ifndef BCPrefixHeader_pch
+#define BCPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+//友盟分享头文件
+#import <UMShare/UMShare.h>
+#import <UShareUI/UShareUI.h>
+#import <UMCommon/UMCommon.h>
+
+#endif /* BCPrefixHeader_pch */
