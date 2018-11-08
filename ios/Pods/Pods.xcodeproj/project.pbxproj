@@ -12,27 +12,36 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00FE7F3FF448AF7C97B98D6FAF710616 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		082490513E9E83B61EA5EA995D218DAF /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyProject.a"; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		12C27329F5872F0280AA4A101101B123 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
+		0FB77B2CD8536E549D888999957DB761 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
+		11743E501844C07671D0CEA102E385A8 /* RongCloud.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = RongCloud.bundle; path = RongCloudIM/RongCloud.bundle; sourceTree = "<group>"; };
 		1C0640F0E06464505E5787C4E078EC49 /* Pods-MyProject-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyProject-resources.sh"; sourceTree = "<group>"; };
 		2DCEF57C91FA96AE3221807320524482 /* Pods-MyProject-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyProject-dummy.m"; sourceTree = "<group>"; };
-		3E5F6354DE1B32B25AF539AAAD912B17 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
-		5B7E3DF790790357878A3EC93F7AB3A2 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
+		2EEFBA71ABE42C77904150A4C3A1DC72 /* libopencore-amrnb.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = "libopencore-amrnb.a"; path = "RongCloudIM/libopencore-amrnb.a"; sourceTree = "<group>"; };
+		388B9105189F2EB0974113799F2A1B46 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = en.lproj; path = RongCloudIM/en.lproj; sourceTree = "<group>"; };
+		3BCED1EC7CC77842A4AB13AD193ECEB3 /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
+		50D4BAAAFC58D9C9D8821CE3BBC1FFCA /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = RongCloudIM/RongIMLib.framework; sourceTree = "<group>"; };
+		52DAFAE4544E3BD9195FCE933C369A18 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
+		5B44299CD9688293367D2F34D2F9B4E3 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
 		5CB0198A53FC763C08600518CAEED675 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		613C4AAD7F09E1E0505EBB21AF6B4C26 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		675672396B9CE7C83A85A0FBEB16E988 /* Pods-MyProject-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyProject-acknowledgements.markdown"; sourceTree = "<group>"; };
-		680624EB38C5520F4D7EFFFED099DC1D /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		6C6487A9F8B0AB11244758D8A5FBA30D /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
+		707E08CB9613C9C63131AB37ABCA6F32 /* Emoji.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Emoji.plist; path = RongCloudIM/Emoji.plist; sourceTree = "<group>"; };
+		844543C4968A0A7F271254972861F95C /* zh-Hans.lproj */ = {isa = PBXFileReference; includeInIndex = 1; name = "zh-Hans.lproj"; path = "RongCloudIM/zh-Hans.lproj"; sourceTree = "<group>"; };
+		88957DA3369C522BB67D1A89FD552965 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApiObject.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		93BEAEC92CF63D362EB368BD2CA9AB91 /* libSocialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialWeChat.a; path = UMShare/SocialLibraries/WeChat/libSocialWeChat.a; sourceTree = "<group>"; };
-		BE4F1CA379B70348A5B5CF4B705027DE /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		9A7B9F887B5B5B6D85167723C41DB128 /* RongIMKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMKit.framework; path = RongCloudIM/RongIMKit.framework; sourceTree = "<group>"; };
+		A2BE9526EB78E0345EEF44CF9F8392EF /* libSocialOfficialWeChat.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libSocialOfficialWeChat.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libSocialOfficialWeChat.a; sourceTree = "<group>"; };
+		B258E3C534835672A09AADED8DF3ADD8 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WXApi.h; sourceTree = "<group>"; };
 		C29FE189F402C1BADDAFB106A955ACF9 /* Pods-MyProject-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyProject-acknowledgements.plist"; sourceTree = "<group>"; };
 		C4DE06B88258F34070486A612022791D /* Pods-MyProject-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyProject-frameworks.sh"; sourceTree = "<group>"; };
-		C695E4707DB9D991B3B666A90CFEAD2D /* UShareUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UShareUI.framework; path = UMShare/UMSocialUI/UShareUI.framework; sourceTree = "<group>"; };
-		D7A41DEEEF5C6ACA87B9588E8DDEFF78 /* UMSocialSDKResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = UMSocialSDKResources.bundle; path = UMShare/UMSocialUI/UMSocialSDKResources.bundle; sourceTree = "<group>"; };
-		DE46F5DA7062466E537686FC9C80E143 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = UMShare/SocialLibraries/WeChat/WechatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
-		DEFFE0894221D9204E6EC4C7838F7DFA /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = UMShare/SocialLibraries/WeChat/WechatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
-		F37386D650FA0456D5ADD7589E56C188 /* UMCommon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UMCommon.framework; sourceTree = "<group>"; };
+		C784DBE9E8C57B3C5092BEC7E4731815 /* RCColor.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCColor.plist; path = RongCloudIM/RCColor.plist; sourceTree = "<group>"; };
+		CD1D50CCD4713A84F87DAF1ED6A030B8 /* UMSocialWechatHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMSocialWechatHandler.h; path = UMShare/SocialLibraries/WeChat/UMSocialWechatHandler.h; sourceTree = "<group>"; };
+		E7C35B1822CE4CD55864B6B172DEF133 /* RCConfig.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = RongCloudIM/RCConfig.plist; sourceTree = "<group>"; };
+		F9201D60E1DA2DC126F4570AC97F4093 /* UMShare.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UMShare.framework; path = UMShare/UMShare.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,29 +56,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2CBAC53328CC033E6FB799DA71FB17CF /* Frameworks */ = {
+		0823073F7B989861C0112B6893DDA7D4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93BEAEC92CF63D362EB368BD2CA9AB91 /* libSocialWeChat.a */,
+				2EEFBA71ABE42C77904150A4C3A1DC72 /* libopencore-amrnb.a */,
+				50D4BAAAFC58D9C9D8821CE3BBC1FFCA /* RongIMLib.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		2E0715D6B095D322AE986A3DF1896C00 /* Frameworks */ = {
+		089B1DE1A9532F05538D232D342202B3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F37386D650FA0456D5ADD7589E56C188 /* UMCommon.framework */,
+				D983F6DF62A01014DEB71E6DF7475AA4 /* RongCloudIM */,
+				1056306309AE19DBAE1905F430086027 /* UMCCommon */,
+				FB65D6FC65264B39D0CA91F44DFEA4EC /* UMCShare */,
 			);
-			name = Frameworks;
+			name = Pods;
 			sourceTree = "<group>";
 		};
-		2F15A59B2B1BAC9168EBA7A14789A13A /* ReducedWeChat */ = {
+		1056306309AE19DBAE1905F430086027 /* UMCCommon */ = {
 			isa = PBXGroup;
 			children = (
-				680624EB38C5520F4D7EFFFED099DC1D /* UMSocialWechatHandler.h */,
-				2CBAC53328CC033E6FB799DA71FB17CF /* Frameworks */,
+				9B5463F8F5CF510ADF0430F1D57B234B /* Frameworks */,
+			);
+			name = UMCCommon;
+			path = UMCCommon;
+			sourceTree = "<group>";
+		};
+		16B4C69F5347F966619EEE1B90E7A21D /* ReducedWeChat */ = {
+			isa = PBXGroup;
+			children = (
+				CD1D50CCD4713A84F87DAF1ED6A030B8 /* UMSocialWechatHandler.h */,
+				D01AF0AA6759BFA6B4289588A36CA532 /* Frameworks */,
 			);
 			name = ReducedWeChat;
+			sourceTree = "<group>";
+		};
+		1ACCF8F149F818CFF50964CF4D82C959 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A2BE9526EB78E0345EEF44CF9F8392EF /* libSocialOfficialWeChat.a */,
+				00FE7F3FF448AF7C97B98D6FAF710616 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		228BA4FEF5536C9FD751BA06E15F67E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BCED1EC7CC77842A4AB13AD193ECEB3 /* UShareUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		334293D1CEE53A4BC7F2FBD2199AD0A2 /* Products */ = {
@@ -78,6 +116,23 @@
 				082490513E9E83B61EA5EA995D218DAF /* libPods-MyProject.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3E32403586699618AE3EF3449F60BAFF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0FB77B2CD8536E549D888999957DB761 /* UMSocialSDKResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3EBA8CD0A0151386E32289A7B7687A38 /* Social */ = {
+			isa = PBXGroup;
+			children = (
+				16B4C69F5347F966619EEE1B90E7A21D /* ReducedWeChat */,
+				A3A3C1C541AE7273B54F05EBF828E235 /* WeChat */,
+			);
+			name = Social;
 			sourceTree = "<group>";
 		};
 		42DAC4B0D1F00FED03312844DDE8C5F9 /* Pods-MyProject */ = {
@@ -95,6 +150,14 @@
 			path = "Target Support Files/Pods-MyProject";
 			sourceTree = "<group>";
 		};
+		440AA5E875DE545BDBB5E15BFA36C9FD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7C35B1822CE4CD55864B6B172DEF133 /* RCConfig.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		5271974467A7B3ECEBA78369E2CEF094 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,37 +166,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5453B060C8B9901A8A271A8C69B4655D /* Frameworks */ = {
+		5D16467FB3565E84E281A1A79B8A2646 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				BE4F1CA379B70348A5B5CF4B705027DE /* libSocialOfficialWeChat.a */,
-				DEFFE0894221D9204E6EC4C7838F7DFA /* libWeChatSDK.a */,
+				707E08CB9613C9C63131AB37ABCA6F32 /* Emoji.plist */,
+				388B9105189F2EB0974113799F2A1B46 /* en.lproj */,
+				C784DBE9E8C57B3C5092BEC7E4731815 /* RCColor.plist */,
+				11743E501844C07671D0CEA102E385A8 /* RongCloud.bundle */,
+				844543C4968A0A7F271254972861F95C /* zh-Hans.lproj */,
 			);
-			name = Frameworks;
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		574555B86E0927ACF8CB122C44835100 /* UMCCommon */ = {
+		6FAD655F438889605D9DF64C4808DE99 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				2E0715D6B095D322AE986A3DF1896C00 /* Frameworks */,
+				EA6F386AA9A6818CC9E0A096B7A5271E /* Frameworks */,
 			);
-			name = UMCCommon;
-			path = UMCCommon;
+			name = Core;
 			sourceTree = "<group>";
 		};
-		5C20F4D43EB4F6A8FE071762997C560F /* Frameworks */ = {
+		7775425A9DE56EC617281C6A70CE5E05 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				C695E4707DB9D991B3B666A90CFEAD2D /* UShareUI.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6A19FE22EFAE098EB6B1AE87F4D4FD3B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				5C20F4D43EB4F6A8FE071762997C560F /* Frameworks */,
-				ECE1CB51730D6CAE0ED389BB458FB8B0 /* Resources */,
+				228BA4FEF5536C9FD751BA06E15F67E5 /* Frameworks */,
+				3E32403586699618AE3EF3449F60BAFF /* Resources */,
 			);
 			name = UI;
 			sourceTree = "<group>";
@@ -143,47 +200,44 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				81634A0E43D73F670D001B539BB0F5CE /* Pods */,
+				089B1DE1A9532F05538D232D342202B3 /* Pods */,
 				334293D1CEE53A4BC7F2FBD2199AD0A2 /* Products */,
 				5271974467A7B3ECEBA78369E2CEF094 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		81634A0E43D73F670D001B539BB0F5CE /* Pods */ = {
+		8C4845D6B966BA7F7A8E1DDC2D85979E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				574555B86E0927ACF8CB122C44835100 /* UMCCommon */,
-				8D33BF34F905EFA880E221D98A667FAE /* UMCShare */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		8D33BF34F905EFA880E221D98A667FAE /* UMCShare */ = {
-			isa = PBXGroup;
-			children = (
-				E586B9517EDE70227BD064A0F73E925E /* Core */,
-				E6B3B4289CAA6E66453EA7178B9196F5 /* Social */,
-				6A19FE22EFAE098EB6B1AE87F4D4FD3B /* UI */,
-			);
-			name = UMCShare;
-			path = UMCShare;
-			sourceTree = "<group>";
-		};
-		8E20D9F07DF3A9F7AF6D59C15C3AA61E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3E5F6354DE1B32B25AF539AAAD912B17 /* UMShare.framework */,
+				9A7B9F887B5B5B6D85167723C41DB128 /* RongIMKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BC0C209E114F2BBB38685EAAB5D451AF /* WeChat */ = {
+		94B9D789A17C862EA0DDCE670B1D3C1C /* IMKit */ = {
 			isa = PBXGroup;
 			children = (
-				DE46F5DA7062466E537686FC9C80E143 /* WechatAuthSDK.h */,
-				12C27329F5872F0280AA4A101101B123 /* WXApi.h */,
-				5B7E3DF790790357878A3EC93F7AB3A2 /* WXApiObject.h */,
-				5453B060C8B9901A8A271A8C69B4655D /* Frameworks */,
+				8C4845D6B966BA7F7A8E1DDC2D85979E /* Frameworks */,
+				5D16467FB3565E84E281A1A79B8A2646 /* Resources */,
+			);
+			name = IMKit;
+			sourceTree = "<group>";
+		};
+		9B5463F8F5CF510ADF0430F1D57B234B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B44299CD9688293367D2F34D2F9B4E3 /* UMCommon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3A3C1C541AE7273B54F05EBF828E235 /* WeChat */ = {
+			isa = PBXGroup;
+			children = (
+				6C6487A9F8B0AB11244758D8A5FBA30D /* WechatAuthSDK.h */,
+				B258E3C534835672A09AADED8DF3ADD8 /* WXApi.h */,
+				88957DA3369C522BB67D1A89FD552965 /* WXApiObject.h */,
+				1ACCF8F149F818CFF50964CF4D82C959 /* Frameworks */,
 			);
 			name = WeChat;
 			sourceTree = "<group>";
@@ -196,6 +250,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CB32DB80920CA9C5ED740964C9126545 /* IMLib */ = {
+			isa = PBXGroup;
+			children = (
+				0823073F7B989861C0112B6893DDA7D4 /* Frameworks */,
+				440AA5E875DE545BDBB5E15BFA36C9FD /* Resources */,
+			);
+			name = IMLib;
+			sourceTree = "<group>";
+		};
+		D01AF0AA6759BFA6B4289588A36CA532 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52DAFAE4544E3BD9195FCE933C369A18 /* libSocialWeChat.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,29 +275,33 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		E586B9517EDE70227BD064A0F73E925E /* Core */ = {
+		D983F6DF62A01014DEB71E6DF7475AA4 /* RongCloudIM */ = {
 			isa = PBXGroup;
 			children = (
-				8E20D9F07DF3A9F7AF6D59C15C3AA61E /* Frameworks */,
+				94B9D789A17C862EA0DDCE670B1D3C1C /* IMKit */,
+				CB32DB80920CA9C5ED740964C9126545 /* IMLib */,
 			);
-			name = Core;
+			name = RongCloudIM;
+			path = RongCloudIM;
 			sourceTree = "<group>";
 		};
-		E6B3B4289CAA6E66453EA7178B9196F5 /* Social */ = {
+		EA6F386AA9A6818CC9E0A096B7A5271E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2F15A59B2B1BAC9168EBA7A14789A13A /* ReducedWeChat */,
-				BC0C209E114F2BBB38685EAAB5D451AF /* WeChat */,
+				F9201D60E1DA2DC126F4570AC97F4093 /* UMShare.framework */,
 			);
-			name = Social;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ECE1CB51730D6CAE0ED389BB458FB8B0 /* Resources */ = {
+		FB65D6FC65264B39D0CA91F44DFEA4EC /* UMCShare */ = {
 			isa = PBXGroup;
 			children = (
-				D7A41DEEEF5C6ACA87B9588E8DDEFF78 /* UMSocialSDKResources.bundle */,
+				6FAD655F438889605D9DF64C4808DE99 /* Core */,
+				3EBA8CD0A0151386E32289A7B7687A38 /* Social */,
+				7775425A9DE56EC617281C6A70CE5E05 /* UI */,
 			);
-			name = Resources;
+			name = UMCShare;
+			path = UMCShare;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

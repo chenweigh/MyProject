@@ -54,6 +54,11 @@ class Home extends Component {
                     this.props.navigation.navigate("UMengHome");
                 }
                 break;
+            case 1:
+                {
+                    this.props.navigation.navigate("RongCloudHome");
+                }
+                break;
         
             default:
                 break;

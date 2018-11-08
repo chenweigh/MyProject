@@ -9,4 +9,7 @@ target 'MyProject' do
   pod 'UMCCommon'
   pod 'UMCShare/UI'
   pod 'UMCShare/Social/WeChat'
+
+  pod 'RongCloudIM/IMLib'
+  pod 'RongCloudIM/IMKit'
 end

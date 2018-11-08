@@ -1,4 +1,7 @@
 PODS:
+  - RongCloudIM/IMKit (2.9.7):
+    - RongCloudIM/IMLib
+  - RongCloudIM/IMLib (2.9.7)
   - UMCCommon (1.5.3)
   - UMCShare/Core (6.9.5):
     - UMCCommon
@@ -14,19 +17,23 @@ PODS:
     - UMCShare/Core
 
 DEPENDENCIES:
+  - RongCloudIM/IMKit
+  - RongCloudIM/IMLib
   - UMCCommon
   - UMCShare/Social/WeChat
   - UMCShare/UI
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
+    - RongCloudIM
     - UMCCommon
     - UMCShare
 
 SPEC CHECKSUMS:
+  RongCloudIM: 0a039a658fe5e40f62d8f2a14c3df3629c12526a
   UMCCommon: 016af43c0f769feb1ae1861d65aaf2b23b89c9c7
   UMCShare: 552b29753f1b4da87b51d96545ed19e6263df397
 
-PODFILE CHECKSUM: 1c6b3f93ba3e515c7c36aaceb8209f5d3f219b2e
+PODFILE CHECKSUM: 6fcab350263510b82a2ac082d13bc8e9abc8875a
 
 COCOAPODS: 1.5.0
