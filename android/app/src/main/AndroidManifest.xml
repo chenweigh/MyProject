@@ -48,6 +48,8 @@
             android:name="UMENG_APPKEY"
             android:value="5bd81a66b465f573c300008d"/>
 
+        <activity android:name=".ShareActivity">
+        </activity>
     </application>
 
 </manifest>

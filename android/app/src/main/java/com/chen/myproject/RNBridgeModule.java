@@ -30,6 +30,31 @@ public class RNBridgeModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void umengShare1(String shareType, ReadableMap shareDic, final Callback callback){
+        String SHARE_TYPE = "shareType",      //分享类型
+            SHARE_TITLE = "shareTitle",       //分享标题
+            SHARE_LOGO = "shareLogo",         //分享 logo(缩略图)
+            SHARE_CONTENT = "shareContent",   //分享详情
+            SHARE_URL = "shareUrl",           //分享地址(网页、视频、音乐、图片)
+            SHARE_TEXT = "shareText";         //分享文本(纯文本)
+
+        Intent intent = new Intent(getCurrentActivity(), ShareActivity.class);
+        intent.putExtra(SHARE_TYPE, shareType);
+        intent.putExtra(SHARE_TITLE, shareDic.getString(SHARE_TITLE));
+        intent.putExtra(SHARE_LOGO, shareDic.getString(SHARE_LOGO));
+        intent.putExtra(SHARE_CONTENT, shareDic.getString(SHARE_CONTENT));
+
+        if (shareDic.hasKey(SHARE_TEXT)){
+            intent.putExtra(SHARE_TEXT, shareDic.getString(SHARE_TEXT));
+        }
+        if (shareDic.hasKey(SHARE_URL)){
+            intent.putExtra(SHARE_URL, shareDic.getString(SHARE_URL));
+        }
+
+        getCurrentActivity().startActivity(intent);
+    }
+
+    @ReactMethod
+    public void umengShare(String shareType, ReadableMap shareDic, final Callback callback){
         String SHARE_TITLE = "shareTitle",    //分享标题
             SHARE_LOGO = "shareLogo",         //分享 logo(缩略图)
             SHARE_CONTENT = "shareContent",   //分享详情
