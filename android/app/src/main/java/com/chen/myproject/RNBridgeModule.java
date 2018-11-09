@@ -1,5 +1,7 @@
 package com.chen.myproject;
 
+import android.content.Intent;
+import android.os.Bundle;
 import android.util.Log;
 
 import com.facebook.react.bridge.Callback;
@@ -27,7 +29,7 @@ public class RNBridgeModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void umengShare(String shareType, ReadableMap shareDic, final Callback callback){
+    public void umengShare1(String shareType, ReadableMap shareDic, final Callback callback){
         String SHARE_TITLE = "shareTitle",    //分享标题
             SHARE_LOGO = "shareLogo",         //分享 logo(缩略图)
             SHARE_CONTENT = "shareContent",   //分享详情
