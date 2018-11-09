@@ -127,6 +127,7 @@ class Home extends Component {
                     var thumb = "https://mmbiz.qpic.cn/mmbiz_jpg/wVhXVTnvSnic2DGkmXiafpp8tZfUPJVqibJ8mSuicKiaNicicF7rsort0ibCvibut68WqtibaExYV0hwPzW7IFbicBOMIkbRQ/0?wx_fmt=jpeg";
                     var ImgUrl = thumb;
                     var type = "image&text";
+                    var url = ImgUrl;
                     var text = "Pumas are large, cat-like animals which are found in America.";
                     var dic1 = {"shareTitle":"分享标题", "shareContent":"分享介绍", "shareLogo":thumb, "shareUrl":url, "shareText":text};   //image&text
                     RNBridgeModule.umengShare(type, dic1, (status)=>{

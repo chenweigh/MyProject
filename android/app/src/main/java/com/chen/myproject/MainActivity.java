@@ -1,4 +1,4 @@
-package com.myproject;
+package com.chen.myproject;
 
 import android.Manifest;
 import android.content.Intent;
@@ -6,7 +6,6 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
-import android.widget.Toast;
 
 import com.facebook.react.ReactActivity;
 import com.umeng.socialize.UMShareAPI;
